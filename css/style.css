@@ -1,58 +1,3 @@
-.codyhouse {
-  text-align: center;
-  margin: 40px 0;
-}
-/* reset css */
-/* https://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, main {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* style css */
 /* --------------------------------
 
 Primary style
@@ -351,42 +296,42 @@ Main Components
   margin-bottom: .2em;
 }
 
-.cd-schedule .single-event[data-event="event-curs"],
-.cd-schedule [data-event="event-event-curs"] .header-bg {
+.cd-schedule .single-event[data-event="event-1"],
+.cd-schedule [data-event="event-1"] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #8bc34a;
+  background: #577F92;
 }
 
-.cd-schedule .single-event[data-event="event-curs"]:hover {
-  background: #8bc34a;
+.cd-schedule .single-event[data-event="event-1"]:hover {
+  background: #618da1;
 }
 
-.cd-schedule .single-event[data-event="event-seminar"],
-.cd-schedule [data-event="event-event-seminar"] .header-bg {
-  background: #ffb300;
+.cd-schedule .single-event[data-event="event-2"],
+.cd-schedule [data-event="event-2"] .header-bg {
+  background: #443453;
 }
 
-.cd-schedule .single-event[data-event="event-seminar"]:hover {
-  background: #ffb300;
+.cd-schedule .single-event[data-event="event-2"]:hover {
+  background: #513e63;
 }
 
-.cd-schedule .single-event[data-event="event-laborator"],
-.cd-schedule [data-event="event-laborator"] .header-bg {
-    background: #E53935;
+.cd-schedule .single-event[data-event="event-3"],
+.cd-schedule [data-event="event-3"] .header-bg {
+  background: #A2B9B2;
 }
 
-.cd-schedule .single-event[data-event="event-laborator"]:hover {
-    background: #E53935;
-}
-.cd-schedule .single-event[data-event="event-proiect"],
-.cd-schedule [data-event="event-proiect"] .header-bg {
-    background: #1976D2;
+.cd-schedule .single-event[data-event="event-3"]:hover {
+  background: #b1c4be;
 }
 
-.cd-schedule .single-event[data-event="event-proiect"]:hover {
-    background: #1976D2;
+.cd-schedule .single-event[data-event="event-4"],
+.cd-schedule [data-event="event-4"] .header-bg {
+  background: #f6b067;
 }
 
+.cd-schedule .single-event[data-event="event-4"]:hover {
+  background: #f7bd7f;
+}
 
 .cd-schedule .event-modal {
   position: fixed;
@@ -658,4 +603,41 @@ Main Components
 .cd-schedule.modal-is-open .cover-layer {
   opacity: 1;
   visibility: visible;
+}
+
+
+.cd-schedule .single-event[data-event="event-curs"],
+.cd-schedule [data-event="event-event-curs"] .header-bg {
+  /* this is used to set a background color for the event and the modal window */
+  background: #8bc34a;
+}
+
+.cd-schedule .single-event[data-event="event-curs"]:hover {
+  background: #8bc34a;
+}
+
+.cd-schedule .single-event[data-event="event-seminar"],
+.cd-schedule [data-event="event-event-seminar"] .header-bg {
+  background: #ffb300;
+}
+
+.cd-schedule .single-event[data-event="event-seminar"]:hover {
+  background: #ffb300;
+}
+
+.cd-schedule .single-event[data-event="event-laborator"],
+.cd-schedule [data-event="event-laborator"] .header-bg {
+    background: #E53935;
+}
+
+.cd-schedule .single-event[data-event="event-laborator"]:hover {
+    background: #E53935;
+}
+.cd-schedule .single-event[data-event="event-proiect"],
+.cd-schedule [data-event="event-proiect"] .header-bg {
+    background: #1976D2;
+}
+
+.cd-schedule .single-event[data-event="event-proiect"]:hover {
+    background: #1976D2;
 }
